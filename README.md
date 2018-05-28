@@ -14,6 +14,8 @@ What I did was:
 Installation
 ---
 
+Before installation, please ensure that `Client Side Decoration (CSD)` is enabled, theme is set to `Light`, and density is set to `Compact`
+
 On Linux, locate your profile directory in `~/.mozilla/firefox/`. The profile directory often starts with a random string and ends with something like `.default`. You can also fetch the path from the `about:support` page.
 
 Once located, navigate into the directory, and run
