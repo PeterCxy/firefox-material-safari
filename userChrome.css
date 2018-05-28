@@ -142,7 +142,7 @@ background-color: rgba(0, 0, 0, 0.1) !important;
 #urlbar {
   margin-left: 85px !important;
   border: none !important;
-  box-shadow: none !important;
+  box-shadow: 0 0 2px 2px #EAEAEAEA !important;
   min-height: 30px !important;
 }
  
