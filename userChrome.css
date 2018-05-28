@@ -178,6 +178,11 @@ label[pinned="true"] {
 #navigator-toolbox {
   transition: all 0.3s ease 0s !important;
 }
+/* Do not display overflow shadow when collapsed */
+#navigator-toolbox .tabbrowser-arrowscrollbox > .arrowscrollbox-overflow-start-indicator,
+#navigator-toolbox .tabbrowser-arrowscrollbox > .arrowscrollbox-overflow-end-indicator {
+  opacity: 0;
+}
 #navigator-toolbox:hover {
   margin-bottom: -39px !important;
   transition: all 0.3s ease 0s !important;
@@ -186,7 +191,12 @@ label[pinned="true"] {
   margin-top: -1px !important;
   transition: all 0.3s ease 0s !important;
 }
- 
+/* Show overflow shadow on expanded */
+#navigator-toolbox:hover .tabbrowser-arrowscrollbox > .arrowscrollbox-overflow-start-indicator,
+#navigator-toolbox:hover .tabbrowser-arrowscrollbox > .arrowscrollbox-overflow-end-indicator {
+  opacity: 1;
+}
+
 /* Remove Tab Borders */
 .tabbrowser-tab::after, .tabbrowser-tab::before {
    border-left: none !important;
