@@ -150,8 +150,8 @@ label[pinned="true"] {
 
 /* Autohide Tabs */
 #TabsToolbar {
-    min-height: 40px !important;
-        margin-top: -40px !important;
+    min-height: 35px !important;
+        margin-top: -41px !important;
     padding-top: 0px !important;
     transition: all 0.3s ease 0s !important;
         -moz-box-ordinal-group: 2 !important;
