@@ -119,19 +119,21 @@
 #urlbar {
     border: none !important;
     box-shadow: 0 0 2px 2px #EAEAEAEA !important;
-    margin-left: 15px !important;
+    margin-left: 60px !important;
     margin-right: 60px !important;
     min-height: 30px !important;
 }
 
 @media (min-width: 1000px) {
     #urlbar {
+        margin-left: 150px !important;
         margin-right: 150px !important;
     }
 }
 
 @media (max-midth: 900px) {
     #urlbar {
+        margin-left: 30px !important;
         margin-right: 30px !important;
     }
 }
@@ -140,6 +142,7 @@
     transition: all 0.4s ease 0s !important;
     background-color: rgb(255, 255, 255) !important;
     box-shadow: 0 0 3px 3px #EAEAEAEA !important;
+    margin-left: 15px !important;
     margin-right: 15px !important;
 }
 
@@ -159,7 +162,7 @@ label[pinned="true"] {
 /* Clean Up */
 
 #urlbar .urlbar-input-box {
-    text-align: left;
+    text-align: center;
 }
 
 .urlbar-input-box > .urlbar-input::placeholder {
