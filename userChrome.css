@@ -117,13 +117,32 @@
 }
 
 #urlbar {
-    margin-left: 30px !important;
-    margin-right: 30px !important;
     border: none !important;
     box-shadow: 0 0 2px 2px #EAEAEAEA !important;
+    margin-left: 15px !important;
+    margin-right: 60px !important;
     min-height: 30px !important;
 }
- 
+
+@media (min-width: 1000px) {
+    #urlbar {
+        margin-right: 150px !important;
+    }
+}
+
+@media (max-midth: 900px) {
+    #urlbar {
+        margin-right: 30px !important;
+    }
+}
+
+#urlbar:hover {
+    transition: all 0.4s ease 0s !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 3px 3px #EAEAEAEA !important;
+    margin-right: 15px !important;
+}
+
 /* Adjust Pinned Tab Width */
 .tabbrowser-tab[pinned="true"] {
     min-width: 40px;
@@ -150,8 +169,8 @@ label[pinned="true"] {
 
 /* Autohide Tabs */
 #TabsToolbar {
-    min-height: 35px !important;
-        margin-top: -41px !important;
+    min-height: 40px !important;
+        margin-top: -40px !important;
     padding-top: 0px !important;
     transition: all 0.3s ease 0s !important;
         -moz-box-ordinal-group: 2 !important;
@@ -214,9 +233,8 @@ label[pinned="true"] {
  
 /* Client Side Decorations */
 #titlebar-buttonbox {
-    height: 39px !important;
-    margin-bottom: 1px !important;
-    background-color: white !important;
+    height: 40px !important;
+    background-color: whitesmoke !important;
 }
 
 window[sizemode="maximized"] #titlebar-buttonbox {
@@ -322,7 +340,7 @@ toolbarbutton#alltabs-button {
     border-radius: 2em !important;
 }
 
-#titlebar-buttonbox{
+#titlebar-buttonbox {
     background: whitesmoke !important;
     margin-right: -5px !important;
 }
