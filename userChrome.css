@@ -119,22 +119,22 @@
 #urlbar {
     border: none !important;
     box-shadow: 0 0 2px 2px #EAEAEAEA !important;
-    margin-left: 60px !important;
-    margin-right: 60px !important;
     min-height: 30px !important;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     #urlbar {
-        margin-left: 150px !important;
-        margin-right: 150px !important;
+        margin-left: 120px !important;
+        margin-right: 120px !important;
     }
 }
 
-@media (max-midth: 900px) {
+@media (min-width: 1100px) and (max-width: 1200px) {
     #urlbar {
-        margin-left: 30px !important;
-        margin-right: 30px !important;
+        margin-left: 60px !important;
+        margin-right: 60px !important;
     }
 }
 
