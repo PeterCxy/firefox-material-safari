@@ -15,6 +15,16 @@ transition: transform ease-in-out 2s !important;
     margin-right: 110px !important;
 }*/
 
+#urlbar {
+    border: solid 1px #fff !important;
+    box-shadow: 0 0 2px 2px #EAEAEAEA !important;
+    -moz-transition: all 0.3s ease 0s !important;
+}
+
+#urlbar:hover, #urlbar[focused="true"]{
+    box-shadow: 0 0 4px 4px #EAEAEAEA !important;
+}
+
 #urlbar[focused="true"] {
     border: solid 1px #ccc !important;
 }
@@ -141,8 +151,6 @@ background-color: rgba(0, 0, 0, 0.1) !important;
 }
 #urlbar {
   margin-left: 85px !important;
-  border: none !important;
-  box-shadow: 0 0 2px 2px #EAEAEAEA !important;
   min-height: 30px !important;
 }
  
