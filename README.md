@@ -3,8 +3,7 @@ Material Safari style for Firefox
 
 This style was originally designed and made by @Mr-Seek on reddit (<https://www.reddit.com/r/FirefoxCSS/comments/8h81bv/material_safari_windows_10/>), all credits go to the original author.
 
-![screenshot 1](https://raw.githubusercontent.com/PeterCxy/firefox-material-safari/master/screenshots/1.jpg)
-![screenshot 2](https://raw.githubusercontent.com/PeterCxy/firefox-material-safari/master/screenshots/2.jpg)
+![screenshot 1](screenshots/theme.gif)
 
 What I did was:
 
