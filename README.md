@@ -24,4 +24,10 @@ Once located, navigate into the directory, and run
 git clone https://github.com/PeterCxy/firefox-material-safari.git chrome
 ```
 
+After which, you should delete the startup cache which is located in
+
+`~/.cache/mozilla/firefox/<PROFILE>/startupCache`
+
+And the `<PROFILE>` here should be the same string as the profile folder in `~/.mozilla/firefox/`. Note that __you must do this after each upgrade / change in the style, otherwise things may not work as you may expect__
+
 Then restart Firefox.

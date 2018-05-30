@@ -20,6 +20,10 @@
 
 	var css = `
 		@namespace url(http: //www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+		scrollbar {
+			position: relative !important;
+			z-index: 2147483647 !important;
+		}
 		:not(select):not(hbox) > scrollbar {
 			-moz-appearance: none!important;
 			position: relative!important;
