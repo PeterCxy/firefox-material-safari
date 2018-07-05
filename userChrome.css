@@ -11,6 +11,10 @@ transition: transform ease-in-out 2s !important;
     transform: rotate(90deg);
 }
 
+.tabs-newtab-button {
+    visibility: visible !important;
+}
+
 /*#nav-bar {
     margin-right: 110px !important;
 }*/
